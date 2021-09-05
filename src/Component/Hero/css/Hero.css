@@ -1,0 +1,9 @@
+.hero {
+  background: #f1f5fd;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 2px gray;
+          box-shadow: 0 0 5px 2px gray;
+  overflow: hidden;
+}
+/*# sourceMappingURL=Hero.css.map */

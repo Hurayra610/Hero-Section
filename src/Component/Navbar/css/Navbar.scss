@@ -1,0 +1,55 @@
+$navColor: #ebeef6;
+$iconColor: #f4ac73;
+
+.navbar {
+  background-color: $navColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 0 40px;
+
+  &__left {
+    display: flex;
+    .MuiSvgIcon-root {
+      font-size: 18px;
+      margin-right: 5px;
+      color: $iconColor;
+    }
+    &__phone {
+      display: flex;
+      margin-right: 10px;
+      align-items: center;
+      font-size: 12px;
+    }
+    &__mail {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
+  &__middle {
+    display: flex;
+    font-weight: bold;
+    gap: 20px;
+    margin-right: 100px;
+    p {
+      cursor: pointer;
+      padding: 5px 10px 15px 10px;
+      border-radius: 5px 5px 0 0;
+    }
+    &__p1 {
+      color: blueviolet;
+    }
+  }
+  &__middle__color {
+    background: #f1f5fd;
+    color: #f4ac73;
+  }
+  &__right {
+    .MuiSvgIcon-root {
+      font-size: 18px;
+      margin-right: 14px;
+    }
+  }
+}

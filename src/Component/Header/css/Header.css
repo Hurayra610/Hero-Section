@@ -1,0 +1,82 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+  padding: 0 30px;
+}
+
+.header__left {
+  color: #0f1041;
+  font-family: "segoe-ui";
+  font-size: large;
+}
+
+.header__left span {
+  color: #e9873b;
+  font-family: "Times New Roman";
+  font-weight: 200;
+}
+
+.header__middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  color: #0f1041;
+}
+
+.header__middle p {
+  cursor: pointer;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__right .MuiSvgIcon-root {
+  color: #0f1041;
+  font-size: 22px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.header__right span {
+  position: relative;
+  top: -12px;
+  left: -5px;
+  background: #0f1041;
+  color: white;
+  border-radius: 99px;
+  font-size: 12px;
+  width: 30px;
+}
+
+.header__right__avater .MuiSvgIcon-root {
+  color: #e9873b;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.header__right__btn {
+  background-color: #0f1041;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 10px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */

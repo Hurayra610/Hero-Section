@@ -1,0 +1,31 @@
+.leftCircle__big {
+  position: relative;
+  border-radius: 999px;
+  background-color: #e6e6e6;
+  left: -100px;
+  bottom: 200px;
+  height: 500px;
+  width: 500px;
+  opacity: 0.8;
+  -webkit-animation: fadein 3s ease-in;
+          animation: fadein 3s ease-in;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    left: -500px;
+  }
+  100% {
+    left: -100px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    left: -500px;
+  }
+  100% {
+    left: -100px;
+  }
+}
+/*# sourceMappingURL=LeftCircle.css.map */

@@ -1,0 +1,93 @@
+$hoverColor: #f28e3a;
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom {
+  @extend .flexbox;
+  gap: 50px;
+  padding-top: 15px;
+
+  &__explore,
+  &__consult,
+  &__discuss,
+  &__test,
+  &__application,
+  &__event {
+    @extend .flexbox;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 50;
+    .MuiSvgIcon-root {
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+  }
+  &__explore {
+    &:hover {
+      color: $hoverColor;
+      .MuiSvgIcon-root {
+        color: #44bea2;
+      }
+    }
+    .MuiSvgIcon-root {
+      color: #9ae7d5;
+    }
+  }
+  &__consult {
+    &:hover {
+      color: $hoverColor;
+      .MuiSvgIcon-root {
+        color: #9456ca;
+      }
+    }
+    .MuiSvgIcon-root {
+      color: #c19be2;
+    }
+  }
+  &__discuss {
+    &:hover {
+      color: $hoverColor;
+      .MuiSvgIcon-root {
+        color: #1f80c5;
+      }
+    }
+    .MuiSvgIcon-root {
+      color: #46b0fb;
+    }
+  }
+  &__test {
+    &:hover {
+      color: $hoverColor;
+      .MuiSvgIcon-root {
+        color: #d16954;
+      }
+    }
+    .MuiSvgIcon-root {
+      color: #f1a191;
+    }
+  }
+  &__application {
+    &:hover {
+      color: $hoverColor;
+      .MuiSvgIcon-root {
+        color: #2580c2;
+      }
+    }
+    .MuiSvgIcon-root {
+      color: #46b0fb;
+    }
+  }
+  &__event {
+    &:hover {
+      color: $hoverColor;
+      .MuiSvgIcon-root {
+        color: #b16628;
+      }
+    }
+    .MuiSvgIcon-root {
+      color: $hoverColor;
+    }
+  }
+}

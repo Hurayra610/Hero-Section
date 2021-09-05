@@ -1,0 +1,103 @@
+.flexbox, .bottom, .bottom__explore, .bottom__consult, .bottom__discuss, .bottom__test, .bottom__application, .bottom__event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom {
+  gap: 50px;
+  padding-top: 15px;
+}
+
+.bottom__explore, .bottom__consult, .bottom__discuss, .bottom__test, .bottom__application, .bottom__event {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  z-index: 50;
+}
+
+.bottom__explore .MuiSvgIcon-root, .bottom__consult .MuiSvgIcon-root, .bottom__discuss .MuiSvgIcon-root, .bottom__test .MuiSvgIcon-root, .bottom__application .MuiSvgIcon-root, .bottom__event .MuiSvgIcon-root {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.bottom__explore:hover {
+  color: #f28e3a;
+}
+
+.bottom__explore:hover .MuiSvgIcon-root {
+  color: #44bea2;
+}
+
+.bottom__explore .MuiSvgIcon-root {
+  color: #9ae7d5;
+}
+
+.bottom__consult:hover {
+  color: #f28e3a;
+}
+
+.bottom__consult:hover .MuiSvgIcon-root {
+  color: #9456ca;
+}
+
+.bottom__consult .MuiSvgIcon-root {
+  color: #c19be2;
+}
+
+.bottom__discuss:hover {
+  color: #f28e3a;
+}
+
+.bottom__discuss:hover .MuiSvgIcon-root {
+  color: #1f80c5;
+}
+
+.bottom__discuss .MuiSvgIcon-root {
+  color: #46b0fb;
+}
+
+.bottom__test:hover {
+  color: #f28e3a;
+}
+
+.bottom__test:hover .MuiSvgIcon-root {
+  color: #d16954;
+}
+
+.bottom__test .MuiSvgIcon-root {
+  color: #f1a191;
+}
+
+.bottom__application:hover {
+  color: #f28e3a;
+}
+
+.bottom__application:hover .MuiSvgIcon-root {
+  color: #2580c2;
+}
+
+.bottom__application .MuiSvgIcon-root {
+  color: #46b0fb;
+}
+
+.bottom__event:hover {
+  color: #f28e3a;
+}
+
+.bottom__event:hover .MuiSvgIcon-root {
+  color: #b16628;
+}
+
+.bottom__event .MuiSvgIcon-root {
+  color: #f28e3a;
+}
+/*# sourceMappingURL=Bottom.css.map */

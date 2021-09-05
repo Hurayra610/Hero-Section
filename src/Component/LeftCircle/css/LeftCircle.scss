@@ -1,0 +1,21 @@
+.leftCircle {
+  &__big {
+    position: relative;
+    border-radius: 999px;
+    background-color: rgb(230, 230, 230);
+    left: -100px;
+    bottom: 200px;
+    height: 500px;
+    width: 500px;
+    opacity: 0.8;
+    animation: fadein 3s ease-in;
+  }
+  @keyframes fadein {
+    0% {
+      left: -500px;
+    }
+    100% {
+      left: -100px;
+    }
+  }
+}

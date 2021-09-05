@@ -1,0 +1,9 @@
+$bgColor: #f1f5fd;
+
+.hero {
+  background: $bgColor;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px gray;
+  overflow: hidden;
+}

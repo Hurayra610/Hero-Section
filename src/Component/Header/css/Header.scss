@@ -1,0 +1,68 @@
+$textColor1: #0f1041;
+$textColor2: #e9873b;
+$fontfamily: "segoe-ui";
+$btnBgColor: #0f1545;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  padding: 0 30px;
+
+  &__left {
+    color: $textColor1;
+    font-family: $fontfamily;
+    font-size: large;
+    span {
+      color: $textColor2;
+      font-family: "Times New Roman";
+      font-weight: 200;
+    }
+  }
+  &__middle {
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    color: $textColor1;
+    p {
+      cursor: pointer;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    .MuiSvgIcon-root {
+      color: $textColor1;
+      font-size: 22px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    span {
+      position: relative;
+      top: -12px;
+      left: -5px;
+      background: $textColor1;
+      color: white;
+      border-radius: 99px;
+      font-size: 12px;
+      width: 30px;
+    }
+    &__avater {
+      .MuiSvgIcon-root {
+        color: $textColor2;
+        font-size: 25px;
+        cursor: pointer;
+      }
+    }
+    &__btn {
+      background-color: $textColor1;
+      color: white;
+      border-radius: 5px;
+      padding: 7px;
+      font-size: 10px;
+      margin-left: 6px;
+      cursor: pointer;
+    }
+  }
+}
